@@ -25,6 +25,22 @@ This is a sample Python project to test Cursor capabilities. The project include
    pip install --index-url https://pypi.org/simple -r requirements.txt
    ```
 
+## Usage
+
+### Command Line Interface
+
+Run the calculator from the command line:
+```bash
+python src/cli.py
+```
+
+The CLI provides a menu-driven interface with the following operations:
+1. Add - Add two numbers
+2. Subtract - Subtract second number from first
+3. Multiply - Multiply two numbers
+4. Divide - Divide first number by second
+5. Exit - Exit the calculator
+
 ## Development
 
 - Use `black` for code formatting
